@@ -22,17 +22,5 @@
     "react-native-safe-area-context": "^5.7.0",
     "react-native-web": "^0.21.0"
   },
-  "devDependencies": {
-    "@testing-library/jest-native": "^5.4.0",
-    "@testing-library/react-native": "^13.3.0",
-    "jest-expo": "^48.0.0"
-  },
-  "jest": {
-    "preset": "jest-expo",
-    "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"],
-    "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|@react-native|@react-navigation|@expo|expo-router)"
-    ]
-  },
   "private": true
 }
